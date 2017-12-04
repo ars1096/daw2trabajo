@@ -24,7 +24,7 @@ ul.nav a{
     padding: 5px    15px;/*lo que esta por dentro del borde es el padding*/ /* 5 arriba y abajo y 15 izq derech*/
     font-weight: bold;
     color: #ccc; /* no todos los navegadores pillan el 2 tipo declarado por ello necesitamos hacer un caso base primero*/
-    color: rgba(255,255,255,.5);/* para el nivel de transparencia*/
+    color: white;/* para el nivel de transparencia*/
     text-shadow: 0 1px 1px rgba(0,0,0,.5);
     border-radius: 14px;
     -webkit-transition: all 0.3s ease-in-out;
@@ -46,5 +46,23 @@ div#nav2{
 
     margin-top: 50px;
     padding-top: 4%;
+
+}
+
+.noticias{
+    display: inline-flex;
+}
+
+.nostyle{
+    display: inline;
+}
+
+.auto{
+    margin-right: 3%;
+    float: left;
+}
+
+.auto2{
+    margin-left: 20%;
 
 }
