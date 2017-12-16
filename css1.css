@@ -16,6 +16,12 @@ p{
 
     text-align: center;
 }
+
+
+h4{
+
+    margin: 5px 0 20px 0;
+}
 ul.nav a{
     text-decoration: none;
 }
@@ -121,6 +127,7 @@ img.tamg{
     background-color: #FFFFFF;
     width: 980px;
     display: inline-flex;
+    border: 1px solid black;
 
 
 
@@ -128,8 +135,12 @@ img.tamg{
 
 #lateral{
     width: 330px;
-    height: 200px;
-    border: 1px solid red ;
+    height: auto;
+    border: 1px solid black ;
+    border-radius: 7px;
+    border: dotted;
+    border-right: hidden;
+    border-top: hidden;
 
     padding-left: 8px;
     margin: 50px 0 0 -1px;
@@ -137,12 +148,23 @@ img.tamg{
     float: left;
 
 
+
 }
 
 #principal{
-    border: 1px solid red ;
+
     padding-left: 20px;
     margin:50px 0 18px 0 ;
 
 
+
+}
+
+.titulo{
+    background-color: black;
+    border-radius: 5px;
+
+    color: white;
+    margin: 0px -16px  8px  -21px ;
+    padding-left: 3px;
 }
