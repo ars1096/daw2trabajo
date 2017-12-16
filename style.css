@@ -1,18 +1,14 @@
 body{
     background-color: orange;
     width: 980px;
-    #margin-top:20px;
     margin-left:auto;
     margin-right:auto;
 }
 a:link{
     text-decoration: none;
-
-
 }
 
 .titulillo{
-
     padding: 0 1% 0 2% ;
     background-color: orange;
     border-radius: 10px;
@@ -20,10 +16,9 @@ a:link{
     margin-left: -10px;
     color: black;
     box-shadow: 3px 3px black ;
-
 }
 
-#menu {
+#menu{
     width: auto;
     height: 60px;
     margin-top: 2px;
@@ -39,7 +34,6 @@ ul.nav{
 
 ul.nav a{
     text-decoration: none;
-
 }
 
 .nav li{
@@ -62,7 +56,6 @@ ul.nav a{
 }
 .nav li a:hover, .nav li a:focus {
     color: orange;
-
 }
 .nav a:active{
     color:orangered;
@@ -78,14 +71,11 @@ h4{
 
 div#izquierda{
     width: 625px;
-
 }
 
 
 .noticias{
     display: inline-flex;
-
-
 }
 
 .noticias2{
@@ -108,26 +98,16 @@ div#izquierda{
     display: list-item;
     list-style: none;
     margin-bottom: 5%;
-
-
-
 }
 
 .auto2 {
     margin-left: 10px;
     display: inline-block;
     list-style: none;
-
-
-
-
-
-
 }
 
 a.tam{
     font-size: 18px;
-
 }
 
 img.tam{
@@ -135,10 +115,10 @@ img.tam{
     height: 85px;
     padding: 0 2px 0 2px ;
 }
+
 img.tamg{
     width: 294px;
     height: 96px;
-
 }
 
 #contenido{
@@ -146,8 +126,6 @@ img.tamg{
     width: 980px;
     display: inline-flex;
     border: 1px solid black;
-
-
 
 }
 
@@ -159,30 +137,66 @@ img.tamg{
     border: dotted;
     border-right: hidden;
     border-top: hidden;
-
     padding-left: 8px;
+    padding-right: 16px;
     margin: 50px 0 0 -1px;
-
     float: left;
-
-
-
+}
+#espaciado{
+    margin-bottom: 7%;
 }
 
-#principal{
 
+#principal{
     padding-left: 20px;
     margin:50px 0 18px 0 ;
-
-
-
 }
 
 .titulo{
     background-color: black;
     border-radius: 5px;
-
     color: white;
     margin: 0px -16px  8px  -21px ;
     padding-left: 3px;
 }
+
+ul#ranking {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin: 5% 0 5% 37%;
+    background-color: #333;
+    border-radius: 5px;
+
+}
+
+li a.ranking {
+    display: block;
+    color: white;
+    border-radius: 7px;
+
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+
+}
+
+h2#ranking{
+    margin-top: 20px;
+    text-align: center;
+ 
+}
+
+img.ranking{
+    width: 50px;
+    height: 50px;
+    margin-right: 5%;
+
+    border: solid  1px black;
+    border-radius: 150px;
+}
+
+
+
