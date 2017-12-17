@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title>Indice</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
           integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
@@ -21,13 +21,13 @@
 <body>
 <div id="designmodo" class="icon">
     <div class="fbox">
-        <div class="design">Guia</div>
-        <div class="modo">Juegos</div>
+        <div class="design"><a id="blanco" href="index.html">Guia</a></div>
+        <div class="modo"><a id="orange" href="index.html">Juegos</a></div>
     </div>
 </div>
 
 <div id="menu">
-    <ul  class="nav">
+    <ul class="nav">
         <li><a href="">PS4</a></li>
         <li><a href="">XBOX</a></li>
         <li><a href="">PC</a></li>
@@ -36,7 +36,7 @@
     </ul>
 
     <ul class="nav">
-        <li><a  href="">Noticias</a></li>
+        <li><a href="">Noticias</a></li>
         <li><a href="">Analisis</a></li>
         <li><a href="ranking.html">Ranking</a></li>
         <li><a href="">Guias</a></li>
@@ -87,11 +87,11 @@
     <div id="principal">
         <div>
             <div class="nostyle"> <!-- añadir padding a todos los div -->
-                <h2 class="titulillo" >Últimas Noticias</h2>
+                <h2 class="titulillo">Últimas Noticias</h2>
             </div>
 
             <div class="noticias">
-                <div  id="izquierda">
+                <div id="izquierda">
                     <div class="auto"> <!-- div de primera noticia-->
 
                         <h3><a href="">Disney compra 21 fox</a></h3>
@@ -149,7 +149,7 @@
 
         <div style="padding-top: 5%">
             <div class="nostyle"> <!-- añadir padding a todos los div -->
-                <h2 class="titulillo" ">Análisis Destacados</h2>
+                <h2 class="titulillo">Análisis Destacados</h2>
             </div>
 
             <div class="noticias">
@@ -237,6 +237,77 @@
 
 
             </div>
+
+            <div>
+                <ul style="margin: 5% 7% 5% 7%;" class="nav" id="ranking">
+                    <li class="ranking"><a href="">Diario</a></li>
+                    <li class="ranking"><a href="">Mensual</a></li>
+                    <li class="ranking"><a href="">Anual</a></li>
+                </ul>
+            </div>
+            <table id="espaciado" class="table table-striped">
+                <thead>
+                <tr style="background-color: cornflowerblue">
+                    <th>#</th>
+                    <th>Nick</th>
+                    <th>Puntos</th>
+                </tr>
+                </thead>
+                <tbody>
+                <div>
+                    <tr>
+                        <td>1</td>
+
+
+                        <td>
+                            <div class="dropdown">
+                                <img class="ranking" src="image/usuario.jpg">Nicky
+                                <div class="dropdown-content">
+                                    <img src="image/usuario.jpg" width=100 height=100 alt="">
+                                    <div class="desc"> <h6>Nicky</h6>
+                                        <h6> Bio: le gusta jugar al tennis</h6>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </td>
+
+
+                        <td>3000</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><div class="dropdown">
+                            <img class="ranking" src="image/usuario.jpg">Mickey
+                            <div class="dropdown-content">
+                                <img src="image/usuario.jpg" width=100 height=100 alt="">
+                                <div class="desc"> <h6>Mickey</h6>
+                                    <h6> Bio: le gusta jugar al tennis</h6>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        </td>
+
+                        <td>2000</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><img class="ranking" src="image/usuario.jpg">Laura</td>
+                        <td>1000</td>
+                    </tr>
+                </div>
+
+                </tbody>
+            </table>
+        </div>
+
+        <div>
 
         </div>
 

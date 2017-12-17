@@ -1,0 +1,26 @@
+#designmodo, #designmodo .fbox {
+    height: 60px;
+}
+
+#designmodo {
+    background-color: black;
+    padding-left: 20px;
+}
+
+#designmodo .fbox * {
+    float: left;
+}
+
+#designmodo .design {
+    color: white;
+    font-family: 'olijo';
+    font-size: 44px;
+    line-height: 60px;
+}
+
+#designmodo .modo {
+    color: orange;
+    font-family: 'anivers';
+    font-size: 50px;
+    line-height: 56px;
+}
