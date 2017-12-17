@@ -281,3 +281,31 @@ select{
 
 
 }
+
+ul.enlaces{
+    list-style: none;
+}
+
+li.enlaces{
+    border: solid 1px orange;
+   background-color: black;
+    margin: 0;
+}
+
+#menu1{
+    width: auto;
+    height: 60px;
+    margin-top: 2px;
+    padding-top: 5px;
+}
+
+.imagui{
+    width: 120px;
+    height: 200px;
+    margin-right: 5%;
+    border-radius: 10px;
+}
+
+table{
+    margin-top: 3%;
+}
