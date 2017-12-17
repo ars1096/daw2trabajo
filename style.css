@@ -239,7 +239,7 @@ img.ranking{
 #wrapper {
     width: 40%;
     height: 40% ;
-    margin: 10% 30% 30% 30%;
+    margin: 10% 30% 10% 30%;
     padding: 50px;
     background: lightgray;
     border: 1px red solid;
@@ -272,3 +272,12 @@ img.ranking{
 }
 
 
+select{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: orange;
+    font-weight: bold;
+
+
+}

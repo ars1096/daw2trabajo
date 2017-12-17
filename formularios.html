@@ -12,6 +12,7 @@
     <script src="form-validation.js"></script>
     <script type="form-validation.js"></script>
 
+
 </head>
 <body>
 <div id="designmodo" class="icon">
@@ -51,8 +52,8 @@
             <h2>¡Registrate YA!</h2>
             <form  action="index.html" onsubmit="return Validate()" name="vform">
                 <div id="username_div">
-                    <label>Nick</label> <br>
-                    <input type="text" name="username" class="textInput" placeholder="Nick">
+                    <label>Nombre de usuario</label> <br>
+                    <input type="text" name="username" class="textInput" placeholder="Nombre de Usuario">
                     <div id="name_error"></div>
                 </div>
                 <div id="email_div">
@@ -117,7 +118,7 @@
         if (username.value.length < 6) {
             username.style.border = "1px solid red";
             document.getElementById('username_div').style.color = "red";
-            name_error.textContent = "El nick debe tener al menos 5 caracteres";
+            name_error.textContent = "El nombre debe tener al menos 5 caracteres";
             username.focus();
             return false;
         }
