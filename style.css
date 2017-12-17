@@ -170,7 +170,7 @@ img.tamg{
 
 ul#ranking {
     list-style-type: none;
-    margin: 0;
+
     padding: 0;
     overflow: hidden;
     margin: 5% 0 5% 37%;
@@ -238,7 +238,7 @@ img.ranking{
 
 #wrapper {
     width: 40%;
-    height: 40%;
+    height: 40% ;
     margin: 10% 30% 30% 30%;
     padding: 50px;
     background: lightgray;
@@ -249,7 +249,7 @@ img.ranking{
 
 
 .textInput {
-    border: none;
+
     height: 28px;
     margin: 2px;
     border: 1px solid black;
@@ -270,4 +270,5 @@ img.ranking{
     padding: 12px;
 
 }
+
 
