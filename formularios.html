@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="logoStyle.css">
+    <link rel="stylesheet" href="style.css">
+    <script type=\"text/javascript\" src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js\"></script>
+    <script src="js/form-validation.js"></script>
+
+</head>
+<body>
+<div id="designmodo" class="icon">
+    <div class="fbox">
+        <div class="design"><a id="blanco" href="index.html">Guia</a></div>
+        <div class="modo"><a id="orange" href="index.html">Juegos</a></div>
+    </div>
+</div>
+
+<div id="menu">
+    <ul class="nav">
+        <li><a href="">PS4</a></li>
+        <li><a href="">XBOX</a></li>
+        <li><a href="">PC</a></li>
+        <li><a href="">FORO</a></li>
+
+    </ul>
+
+    <ul class="nav">
+        <li><a href="">Noticias</a></li>
+        <li><a href="">Analisis</a></li>
+        <li><a href="ranking.html">Ranking</a></li>
+        <li><a href="">Guias</a></li>
+        <li><a href="">Eventos</a></li>
+        <li><a href="formularios.html">Logros</a></li>
+        <li><a href="">Trucos</a></li>
+
+
+    </ul>
+    <div id="contenido">
+        <div style="width: 800px height:500px" class="container">
+
+            <h2 class="ranking">Create una cuenta ¡YA!</h2>
+
+            <div id="formul">
+                <form name="myForm">
+                    <label>Nombre:</label>
+                    <div class="input">
+                        <input type="text"><br>
+                    </div>
+                    <label> Contraseña:</label>
+                    <div class="input">
+                        <input class="input" type="password" name="userPass" onkeyup="validate()" required>
+                        <h7 id="mylocation"></h7>
+                    </div>
+
+                    <label>Fecha de nacimiento</label>
+                    <div class="input">
+                        <input type="date" required><br>
+                    </div>
+
+                    <label>Nick: </label>
+                    <div class="input">
+                        <input type="text" name="nick" onkeyup="validateName()  " required><br>
+                        <h7 id="myNick"></h7>
+                    </div>
+                    <label> Ciudad:</label>
+                    <div class="input">
+                        <input type="text"><br>
+                    </div>
+                    <label>Email:</label>
+                    <div class="input">
+                        <input required type="email"><br>
+                    </div>
+                    <div >
+                        <input type="submit">
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+</body>
+</html>
