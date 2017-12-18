@@ -134,8 +134,8 @@ img.tamg{
     width: 980px;
     display: inline-flex;
     border: 1px solid black;
-
 }
+
 
 #lateral{
     width: 330px;
@@ -156,6 +156,7 @@ img.tamg{
 
 
 #principal{
+    width: 649px;
     padding-left: 20px;
     margin:50px 0 18px 0 ;
 }
@@ -192,11 +193,14 @@ li a.ranking {
 }
 
 h2.ranking{
+
     margin-top: 20px;
     text-align: center;
 
 
+
 }
+
 
 img.ranking{
     width: 50px;
@@ -206,6 +210,8 @@ img.ranking{
     border: solid  1px black;
     border-radius: 150px;
 }
+
+
 
 
 .dropdown-content {
@@ -276,7 +282,7 @@ select{
     width: 150px;
     height: 50px;
     text-align: center;
-    background-color: orange;
+    border: groove;
     font-weight: bold;
 
 
@@ -300,12 +306,54 @@ li.enlaces{
 }
 
 .imagui{
-    width: 120px;
+    width: 150px;
     height: 200px;
     margin-right: 5%;
     border-radius: 10px;
 }
 
+.alinear{
+   width: 120px;
+    height: 200px;
+
+
+}
+a.alinear{
+    margin-right: 5%;
+
+}
+.pegar{
+    display: inline-block;
+}
+
 table{
     margin-top: 3%;
+}
+
+td.position{
+    display: inline-flex;
+    width: 600px;
+    margin-right: 13px;
+    padding: 3px;
+
+}
+
+div.texto{
+
+    text-align: left;
+    margin:10%;
+}
+ul.texto{
+    font-size: 15px;
+    list-style: none;
+    padding: 0;
+}
+li.texto{
+    display: inline;
+
+
+}
+a.texto{
+    font-size: 23px;
+    margin-bottom: 40px;
 }
